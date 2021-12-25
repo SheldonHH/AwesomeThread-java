@@ -1,6 +1,6 @@
 package com.sheldonhh.lambda;
 
-public class TestLamdba2 {
+public class TestLamdba22 {
     static class Love implements ILove {
         @Override
         public void love(int a){
