@@ -10,7 +10,7 @@ public class StaticProxy {
         //        ProxyCompany proxyCompany = new ProxyCompany(new You());
 //        proxyCompany.HappyMarry();
 
-        new Thread(()-> System.out.println("LOVEEEEEE")).start();
+        new Thread(()-> System.out.println("WEDDING DAY")).start();
         new ProxyCompany(new You()).HappyMarry();
 
     }
