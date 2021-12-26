@@ -5,8 +5,14 @@ Proxy and You implement same interface
 */
 public class StaticProxy {
     public static void main(String[] args) {
-        ProxyCompany proxyCompany = new ProxyCompany(new You());
-        proxyCompany.HappyMarry();
+
+//        You you = new You();
+        //        ProxyCompany proxyCompany = new ProxyCompany(new You());
+//        proxyCompany.HappyMarry();
+
+        new Thread(()-> System.out.println("LOVEEEEEE")).start();
+        new ProxyCompany(new You()).HappyMarry();
+
     }
 }
 
@@ -17,7 +23,9 @@ interface Marry{
 class You implements Marry{
     @Override
     public void HappyMarry() {
-        System.out.println("Start");
+        System.out.println("Ring Exchange");
+
+        System.out.println("Kiss ");
     }
 }
 
